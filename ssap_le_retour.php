@@ -19,7 +19,7 @@
 		return ($array);
 	}
 
-	if (!$argc < 2)
+	if ($argc < 2)
 		exit;
 	$my_array = explode(" ", $argv[1]);
 	$argv = ft_sort_array($my_array);	
